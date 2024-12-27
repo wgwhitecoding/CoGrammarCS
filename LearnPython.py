@@ -6,7 +6,7 @@
         # 1 Hashtag are Comemnts/Analogies and Explanations
         ## 2 Hashtags are runable code, delete the hashtags to run the code/add or change the code for practice
 
-        # NOTE To run the code below delete 2 ## hastags at the start of every line this will uncomment them. below will tell you how using shortcut:
+        # NOTE To run the code delete 2 ## hastags at the start of every line this will uncomment them. below will tell you how using shortcuts:
 
 
         # 1. Highlight all the code with 2 ##
@@ -48,6 +48,9 @@
                         # macOS: Cmd + Z                # Do this 2 times as there is 2 ##
 
 
+        # Alternatively, you can delete and type them back individually as you do in a text document.
+
+
 # ======================================================================================================================================================
 # ========================================================= 1. COMMUNICATION PRINT() ===================================================================
 # ======================================================================================================================================================      
@@ -70,7 +73,9 @@
 
 """ EXPECTED RESULT """
 
-# Results will be :  Hello world 
+# When you run the code, the computer will display: 
+                        
+                        # Hello world 
 
 
 """ TASK """
@@ -197,10 +202,12 @@
 
 
 """ EXPECTED RESULT """
-# Your age is: 30
-# Your name is: Alex
-# The price of coffee is: 5.99
-# Are you happy? True
+# When you run the code, the computer will display:
+
+                        # Your age is: 30
+                        # Your name is: Alex
+                        # The price of coffee is: 5.99
+                        # Are you happy? True
 
 
 """ TASK """
@@ -275,10 +282,13 @@
 
 """ EXPECTED RESULT """
 
-# Results will be :  
-                        # What's your name? Will  #(WILL IS MY INPUT AS AN ANSWER TO THE QUESTION)
+# When you run the code, the computer will display:
+#  
+                        # What's your name? Will  
                         # Hello, Will!
 
+
+# NOTE (WILL IS MY INPUT AS AN ANSWER TO THE QUESTION)
 
 """ TASK """
 # Try it yourself:
@@ -299,8 +309,8 @@
 
 
 """GOAL OF THIS SECTION"""
-#Combine what we’ve learned so far to build a simple restaurant menu.
-#Understand the difference between int and str in the menu context.
+# Combine what we’ve learned so far to build a simple restaurant menu.
+# Understand the difference between int and str in the menu context.
 
 
 """EXPLANATION"""  
@@ -452,7 +462,8 @@ This function displays the menu for the Python Diner.
 
 
 """ EXPECTED RESULT """
-# Results will be:
+# When you run the code, the computer will display:
+
                     # Welcome to Python Diner! What's your name? Will 
                     # Hello, will! Here's our menu:
 
@@ -464,7 +475,8 @@ This function displays the menu for the Python Diner.
                     # What would you like to order? (Type the name of the dish) 2
                     # Great choice, will! We'll prepare your 2 right away.
 
-                        # (messege + name + message + order + message) 
+
+                        # (messege + name + message + order + message) # You will not see this this is just for you to see the data types used
                         #    str      str     str      int      str
 
 
@@ -481,6 +493,12 @@ This function displays the menu for the Python Diner.
 # Play around and add a desert 🚀✨
 
 
+""" KEY CONCEPT SUMMARY """
+# int: Numbers are useful for identifying menu options (e.g., "1. Pizza").
+# str: Strings are useful for displaying and interacting with names or text (e.g., "Pizza").
+# Combining int and str helps create menus that are both functional and descriptive.
+
+
 # NOTE That we used Number (int) to indentify menu option the results show a Int (number) instead of the name of the item
 # NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
@@ -488,7 +506,20 @@ This function displays the menu for the Python Diner.
 # ======================================================================================================================================================
 
 
-#TBC FROM HERE
+""" GOAL OF THIS SECTION """
+# Modify the menu to use str (text) instead of int (numbers) for a more natural user interaction.
+# Understand how switching between int and str changes how the program behaves.
+# Begin observing the importance of validating user input.
+
+
+""" EXPLANATION """
+# Switching Menu Options to Strings (str)
+
+# Analogy:
+# Imagine you’re at a restaurant. Instead of choosing a dish by its number (e.g., "1" for Pizza), you simply say the name of the dish (e.g., "Pizza").
+# This makes the interaction more natural.
+
+# By replacing the numbers (int) in our menu with text (str), we allow the user to type the name of the dish directly.
 
 
 # If we wanted for the results to show the name of the iteams instead of a number we would change the int (number) to a str (Text)
@@ -506,7 +537,7 @@ This function displays the menu for the Python Diner.
 
 # we would remove the numbers (int) and we would put the iteams in "" (string) 
 
-                    # Results we now be diffrent istead of a int input (you putting in a number to choose what you want to eat)
+                    # Results will now be diffrent istead of a int input (you putting in a number to choose what you want to eat)
                             # you will have to write what you what you want to eat e.g Pizza 
                             # the computer output will also say Pizza instead
                     # Welcome to Python Diner! What's your name? Will
@@ -522,18 +553,205 @@ This function displays the menu for the Python Diner.
                         #(messege + name + message + order + message) 
                         #   str      str     str      str     str
 
-# NOTE Great work, BuT what if we enter a int or str that is not in the menu what will happen? try it and see
+"""RUNABLE CODE"""
+## #Step 1: Ask for the customer's name
+## name = input("Welcome to Python Diner! What's your name? ") 
+
+## #Step 2: Greet the customer
+## print("Hello, " + name + "! Here's our menu:")
+
+## # Step 3: Display the menu
+## print("""
+## Menu:
+## "Pizza"
+## "Burger"
+## "Pasta"
+## """)
+
+## # Step 4: Take the customer's order
+## order = input("What would you like to order? (Type the name of the dish) ")
+
+## # Step 5: Confirm the order
+## print("Great choice, " + name + "! We'll prepare your " + order + " right away.") 
+
+
+""" EXPECTED RESULT """
+# When you run the code, the computer will display:
+
+                        # Welcome to Python Diner! What's your name? Will
+                        # Hello, Will! Here's our menu:
+
+                        # Menu:
+                        # "Pizza"
+                        # "Burger"
+                        # "Pasta"
+
+                        # What would you like to order? (Type the name of the dish) Pizza
+                        # Great choice, Will! We'll prepare your Pizza right away.
+
+
+""" TASK """
+# Modify the menu to use strings (str) instead of numbers (int).
+# Add two more items to the menu, such as "Salad" and "Fries", and update the options.
+
+# Run the program and test the changes:
+# Try typing valid menu items (e.g., "Pizza" or "Fries").
+
+
+""" ENCOURAGEMENT """
+# Fantastic progress! By switching to strings, you’ve made the program more intuitive for the user.
+
+# Did you notice what happens when the user types something that’s not on the menu? Don’t worry—we’ll learn how to handle this in the next step!
+# For now, celebrate your achievement and try adding more fun options like "Ice Cream" or "Cake" for dessert! Keep experimenting—you’re doing amazing! 🚀✨
+
+
+""" KEY CONCEPT SUMMARY """
+# int: Numbers are useful for quick identification, like menu item numbers.
+# str: Strings allow users to interact naturally by typing names.
+# Switching from int to str can make programs feel more human-friendly.
+
+                        
+
+# NOTE In the next section, we’ll learn how to validate user input and guide the customer when they make a mistake. Stay tuned! 😊
 
 # NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
-# ============================================= 5 INPUT VALIDATION AND ERROR HANDLING ==================================================================
+# ============================================= 5 INPUT VALIDATION AND ERROR HANDLING : LOOPS ==========================================================
 # ====================================================================================================================================================== 
 
 # Did you try it? if you did you would of noticed its still fuctioning as if your item is there even though its not . right?
-
 # lets make our program even cooler by handle such errors.
 
+""" GOAL OF THIS SECTION """
+# Learn how to handle situations where the user enters invalid input.
+# Introduce basic error handling techniques to guide users back to correct choices.
+# Continue building the restaurant menu by adding input validation.
 
+
+""" EXPLANATION """
+# Input Validation: LOOPS - Guiding the Customer
+
+# Analogy:
+# Imagine you're a waiter at a diner. If a customer orders something not on the menu, you politely ask them to choose again. 
+# You keep asking until they pick something available. This is how loops work in programming—they keep repeating a task until a certain condition is met.
+
+
+
+# What is a Loop?
+# A loop is a way to tell the computer to do something repeatedly as long as a specific condition is true.
+# while loop: Think of it as a question that keeps asking, "Is this still true?" If the answer is "yes," it keeps running. Once the answer is "no," it stops.
+
+# How Does a While Loop Work?
+# It checks a condition.
+# If the condition is true, it runs the block of code inside the loop.
+# Once the condition becomes false, it stops.
+
+# Loop Analogy:
+# Imagine you’re giving directions to a customer who keeps making wrong turns. You say: "Keep going until you see the big red building."
+# They continue moving in the loop until the condition ("seeing the red building") is met.
+
+# How Does This Apply to Input Validation?
+# When the customer enters an invalid order:
+# We politely tell them their choice is unavailable.
+# The program repeats the question until they select something valid.
+# Once they choose correctly, the loop stops.
+
+# we do this by added an extra step before confirming the order, it will look like this
+                        # Step 4: Validate the order using a loop
+                        # while order not in menu:  # This loop will run until the user enters a valid menu item
+                        #     print("Sorry, we don't have that item. Please choose something from the menu.")
+                        #     order = input("What would you like to order? (Type the name of the dish) ").capitalize()
+
+
+
+""" RUNABLE CODE """
+
+## # Step 1: Welcome the customer
+## name = input("Welcome to Python Diner! What's your name? ")
+## print("Hello, " + name + "! Here's our menu:")
+
+## # Step 2: Define the menu and display it
+## menu = ["Pizza", "Burger", "Pasta", "Salad", "Fries"]
+## print("""
+## Menu:
+## "Pizza"
+## "Burger"
+## "Pasta"
+## "Salad"
+## "Fries"
+## """)
+
+## # Step 3: Take the customer's order with validation
+## order = input("What would you like to order? (Type the name of the dish) ").capitalize()
+
+## # Step 4: Validate the order
+## while order not in menu:
+##     print("Sorry, we don't have that item. Please choose something from the menu.")
+##     order = input("What would you like to order? (Type the name of the dish) ").capitalize()
+
+## # Step 5: Confirm the order
+## print("Great choice, " + name + "! We'll prepare your " + order + " right away.")
+
+
+""" EXPECTED RESULT """
+# When you run the code, the computer will display:
+
+                        # Welcome to Python Diner! What's your name? Will
+                        # Hello, Will! Here's our menu:
+
+                        # Menu:
+                        # "Pizza"
+                        # "Burger"
+                        # "Pasta"
+                        # "Salad"
+                        # "Fries"
+
+                        # What would you like to order? (Type the name of the dish) Pizza
+                        # Great choice, Will! We'll prepare your Pizza right away.
+                        # If the user enters an invalid item (e.g., "Steak"), the program will prompt them again:
+
+
+                        # Sorry, we don't have that item. Please choose something from the menu.
+                        # What would you like to order? (Type the name of the dish) Pasta
+                        # Great choice, Will! We'll prepare your Pasta right away.
+
+
+""" TASK """
+# Add a drinks menu to the program and validate the drink order in the same way:
+
+# Example:
+
+                        # drinks_menu = ["Water", "Soda", "Juice"]
+                        # Update the confirmation message to include both the food and drink orders.
+
+# Experiment with what happens if:
+# The menu has both uppercase and lowercase items (e.g., "pizza" vs. "Pizza").
+# The user enters a completely unexpected input (e.g., "12345").
+
+
+"""ENCOURAGEMENT"""
+# You’ve just leveled up! By adding input validation, your program is now smarter and more user-friendly.
+
+# Think of how you can expand this further:
+# Could you add prices to the menu?
+# Could the program calculate the total bill for multiple items?
+# Experiment and see where your creativity takes you—you're doing amazing! 🚀✨
+
+
+""" KEY CONCEPT SUMMARY """
+# A while loop keeps running as long as a condition is true.
+# Use it to repeat tasks until the user provides valid input.
+# Input Validation:
+# Helps make programs more user-friendly and robust.
+# Combine lists and loops to create flexible menus.
+
+
+
+# NOTE In the next section, we’ll add data types like floats for prices and learn how to calculate totals for a more realistic diner experience. Stay tuned! 😊
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
+# ======================================================================================================================================================
+# ============================================  ===============================================================
+# ======================================================================================================================================================
 
 
 
