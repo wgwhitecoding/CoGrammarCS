@@ -1,6 +1,6 @@
-# =======================================================================================================================================
-# =======================================================     INDEX: HOW TO     =========================================================
-# ======================================================================================================================================= 
+# ======================================================================================================================================================
+# =======================================================     INDEX: HOW TO     ========================================================================
+# ====================================================================================================================================================== 
 
 
         # 1 Hashtag are Comemnts/Analogies and Explanations
@@ -51,45 +51,26 @@
                         # macOS: Cmd + Z                # Do this 2 times as there is 2 ##
 
 
-# =======================================================================================================================================
-# ========================================================= 1. COMMUNICATION PRINT() ====================================================
-# =======================================================================================================================================                                              
+# ======================================================================================================================================================
+# ========================================================= 1. COMMUNICATION PRINT() ===================================================================
+# ======================================================================================================================================================                                              
 
 # Analogy:
 # print() function is like a computers mouth, when you write print what ever is inbetween () the computer will say out load (print out)
-
 
 
 ## print ("Hello world")
 
                     # Results will be :  Hello world 
 
-# NOTE To run this code above delete 2 ## hastags at the start of every line  this will uncomment them below will tell you how using shortcut:
-
-
-                        # 1. Highlight all the code with 2 ##
-                        # 2. Once highlight use shortcuts to uncomment to run the code:
-
-                                        # macOS: Cmd + /                # Do this 2 times as there is 2 ##
-                                        # Windows/Linux: Ctrl + /       # Do this 2 times as there is 2 ##
-
-                        # 3. Look at the index at the top of this page for instruction on how to run the run and see results 
-                        
-                        # NOTE Once you run the code and moving on to the next section put the comment ## back this will comment them again.
-                        
-                        # 1. Highlight all the code you uncommented 
-                        # 2. Once highlight use shortcuts to omment to run the code:
-
-                                        # Windows/Linux: Ctrl + Z       # Do this 2 times as there is 2 ##
-                                        # macOS: Cmd + Z                # Do this 2 times as there is 2 ##
 
 #### TASK
     # Try it your self. Can you get the computer to say "I Love Coding" 🚀✨
 
 
-# =======================================================================================================================================
-# ========================================================= 2. VARIABLES  ===============================================================
-# ======================================================================================================================================= 
+# ======================================================================================================================================================
+# ========================================================= 2. VARIABLES  ==============================================================================
+# ======================================================================================================================================================
                                                 
 # Variables - Your Storage Boxes
 # In Python, variables are like labeled storage boxes where you can keep information.
@@ -122,9 +103,10 @@
     # How would i get the resutls of the total number of fruit i have?
     # TRY IT 🚀✨
 
-# =======================================================================================================================================
-# ========================================================= 3. DATA TYPES  ==============================================================
-# ======================================================================================================================================= 
+
+# ======================================================================================================================================================
+# ========================================================= 3. DATA TYPES  =============================================================================
+# ====================================================================================================================================================== 
                                                
 
 # Not all boxes store the same type of thing! Python has different kinds of storage boxes:
@@ -143,9 +125,9 @@
 # NOTE we will chat about these later. now lets have a look at input() fanction and what it does 
 
 
-# =======================================================================================================================================
-# ================================================== 4. INPUT() - LISTENNING TO YOU =====================================================
-# ======================================================================================================================================= 
+# ======================================================================================================================================================
+# ================================================== 4. INPUT() - LISTENNING TO YOU ====================================================================
+# ======================================================================================================================================================
                                             
 # input() function is how you make the computer ask questions. 
 
@@ -167,10 +149,11 @@
                         #                   Hello, Will!
 
 
-# =======================================================================================================================================
-# ================================================= 4.1 INPUT PART 2 ADDING MENU ========================================================
-# ======================================================================================================================================= 
+# ======================================================================================================================================================
+# ================================================= 4.1 INPUT PART 2 ADDING MENU =======================================================================
+# ====================================================================================================================================================== 
                                         
+
 # Lets build on what we have learned so far and add a menu 
                         
                         # 1. we want to welcome the user and ask for their name 
@@ -217,6 +200,7 @@
 # =========== SIDE QUEST 1 ==============
 # =======================================
 
+
 # What Are """ """?
 # In Python, """ """ (triple quotes) are used to create multi-line strings.
 
@@ -245,6 +229,7 @@ This function displays the menu for the Python Diner.
 
 
 # Great our code so far should look like this:
+
                         # Step 1:  welcome the customer and Ask for the customer's name
                         # name = input("Welcome to Python Diner! What's your name? ") 
 
@@ -259,6 +244,42 @@ This function displays the menu for the Python Diner.
                         # 3. Pasta      #int
                         # """)
 
+# Next we need to give the customer a way to put in their order so we can make for them, the customer has 3 as display on th menu
+# The customer needs to have a way to input their choice, to do this we need to create another input() function 
+
+# it will look like this:
+
+                        # order = input("What would you like to order? (Type the name of the dish) ")
+
+
+# order: This is a variable that stores the value returned by the input() function. The user is prompted to type something, 
+# whatever they type is stored in the order variable.
+
+# Great we now  did a few cool things: 
+
+                        # We welcomed the used
+                        # We asked for thier Name
+                        # We got their name 
+                        # We said Hello (using their name)
+                        # We verbally gave them a menu
+                        # We displayed a menu with options 
+                        # and we are able to take the order
+
+# I think one last line code to Confirm the order will do.abs
+
+# lets create the final line of code to confirn the order by using the print() function again
+# This time, we will use the print() function to display the input() function variables 
+# alongside strings to create a friendly message that confirms the customer's order.
+
+# it will look like this
+
+                        # print("Great choice, " + name + "! We'll prepare your " + order + " right away.") 
+                        #             str          str             str                int          str
+                        #                        Variable                          Varianle                           
+
+
+# Great lets well done we create a cool litte program that intracts with customers. 
+# below is the full, follow the instruction in index to run the code and test it out.  
 
 ## #Step 1: Ask for the customer's name
 ## name = input("Welcome to Python Diner! What's your name? ") 
@@ -291,6 +312,7 @@ This function displays the menu for the Python Diner.
 
                     # What would you like to order? (Type the name of the dish) 2
                     # Great choice, will! We'll prepare your 2 right away.
+
                         # (messege + name + message + order + message) 
                         #    str      str     str      int      str
 
@@ -298,20 +320,20 @@ This function displays the menu for the Python Diner.
 # NOTE that we used Number (int) to indentify menu option the results show a Int (number) instead of the name of the item
 
 
-# =======================================================================================================================================
-# ============================================ 4.3 INPUT PART 3 USING STR TO REPLACE INT ================================================
-# ======================================================================================================================================= 
+# ======================================================================================================================================================
+# ============================================ 4.3 INPUT PART 3 USING STR TO REPLACE INT ===============================================================
+# ======================================================================================================================================================
 
 # If we wanted for the results to show the name of the iteams instead of a number we would change the int (number) to a str (Text)
 # We simply do this by modifying how the computer would read the iteams from numbers to text.            
             
                     # Step 3: Display the menu
-                    ### print("""
-                    ### Menu:
-                    ### "Pizza"
-                    ### "Burger"
-                    ### "Pasta"
-                    ### """)
+                    # print("""
+                    # Menu:
+                    # "Pizza"
+                    # "Burger"
+                    # "Pasta"
+                    # """)
 
 # Try replacing step 3 in the runable code with this (str) Menu to see the diffrence  
 
@@ -332,12 +354,36 @@ This function displays the menu for the Python Diner.
                     # Great choice, Will! We'll prepare your pizza right away.
                         #(messege + name + message + order + message) 
                         #   str      str     str      str     str
-# NOTE
+
+# NOTE Great work, BuT what if we enter a int or str that is not in the menu what will happen? try it and see
 
 
-# =======================================================================================================================================
-# ============================================= 5 DATA TYPES PART 2 DATA types  AT WORK ==================================================
-# ======================================================================================================================================= 
+# ======================================================================================================================================================
+# ============================================= 5 INPUT VALIDATION AND ERROR HANDLING ==================================================================
+# ====================================================================================================================================================== 
+
+# Did you try it? if you did you would of noticed its still fuctioning as if your item is there even though its not . right?
+
+# lets make our program even cooler by handle such errors.
+
+
+hereeeeeeeeee tbc
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ======================================================================================================================================================
+# =============================================  DATA TYPES PART 2 DATA TYPES AT WORK =================================================================
+# ====================================================================================================================================================== 
 
 
 #Individual Examples for Each Data Type:
