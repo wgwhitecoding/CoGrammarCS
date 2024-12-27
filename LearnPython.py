@@ -50,7 +50,12 @@
 
 # ======================================================================================================================================================
 # ========================================================= 1. COMMUNICATION PRINT() ===================================================================
-# ======================================================================================================================================================                                              
+# ======================================================================================================================================================      
+
+
+""" GOAL OF THIS SECTION """
+# Learn how to use the print() function to display messages on the screen.
+# Understand how to modify what the computer "says."
 
 
 """ EXPLANATION """
@@ -80,11 +85,24 @@
 # try adding another print() line to display: Learning Python is fun! 🚀✨
 
 
+"""KEY CONCEPT SUMMARY"""
+# The print() function is used to display messages to the user.
+# You can use it multiple times to "say" different things.
+# Whatever text is inside print() (surrounded by quotes) will appear on the screen.
+
+# Next, you’ll learn how to store information using variables—stay tuned! 😊
+
+
 
 # NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ========================================================= 2. VARIABLES  ==============================================================================
 # ======================================================================================================================================================
+
+
+""" GOAL OF THIS SECTION """
+# Learn how to use variables to store and manipulate data.
+# Understand how to perform basic arithmetic with variables.
 
 
 """EXPLANATION"""
@@ -133,10 +151,23 @@
 # print(apples * 2)  # Doubling the number of apples
 
 
+""" KEY CONCEPT SUMMARY """
+# Variables store data like numbers, words, or other information.
+# You can use arithmetic operators like +, -, *, and / to manipulate variable values.
+# Variables let the computer remember information for you to use later.
+
+# Up next, we’ll explore the different types of information that variables can store. Stay tuned! 😊
+
+
 # NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ========================================================= 3. DATA TYPES  =============================================================================
 # ====================================================================================================================================================== 
+
+
+""" GOAL OF THIS SECTION """
+# Learn about different data types in Python: int, str, float, and bool.
+# Understand how to store and print values of different types.
 
 
 """EXPLANATION"""
@@ -151,6 +182,7 @@
                         # name = "Will"         # str 
                         # price = 19.99         # float
                         # is_happy = True       # bool
+
 
 """RUNABLE CODE"""
 ## age = 30  # int
@@ -194,11 +226,23 @@
 #This is a great way to practice mixing data types! Let’s see what you can come up with! 😊
 
 
+""" KEY CONCEPT SUMMARY """
+# Data types define the kind of information a variable can store.
+# Common types:
+# int for whole numbers.
+# str for text.
+# float for decimal numbers.
+# bool for True/False values.
+# You can use variables of different types together in creative ways.
+# Up next, we’ll explore how to interact with users by asking them questions using the input() function. Stay tuned! 😊
+
+
 # NOTE we will chat about these later. now lets have a look at input() fanction and what it does 
 # NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ================================================== 4. INPUT() - LISTENNING TO YOU ====================================================================
 # ======================================================================================================================================================
+
 
 """EXPLANATION"""                                        
 # The input() function is how you make the computer "ask questions." It works like this:
@@ -252,7 +296,13 @@
 # ======================================================================================================================================================
 # ================================================= 4.1 INPUT PART 2 ADDING MENU =======================================================================
 # ====================================================================================================================================================== 
-                                        
+
+
+"""GOAL OF THIS SECTION"""
+#Combine what we’ve learned so far to build a simple restaurant menu.
+#Understand the difference between int and str in the menu context.
+
+
 """EXPLANATION"""  
 # Lets build on what we have learned so far and add a menu 
                         
@@ -418,12 +468,27 @@ This function displays the menu for the Python Diner.
                         #    str      str     str      int      str
 
 
-# NOTE that we used Number (int) to indentify menu option the results show a Int (number) instead of the name of the item
+""" TASK """
+# Add two more items to the menu, such as "Salad" and "Fries". Modify the code to display these new options
+# Add a new input to ask the customer for a drink order and combine it with the food order in the confirmation message:
+
+# drink = input("What would you like to drink? ")
+# print("Great choice, " + name + "! We'll prepare your " + order + " with a " + drink + " right away.")
+
+
+""" ENCOURAGEMENT """
+# Amazing job so far
+# Play around and add a desert 🚀✨
+
+
+# NOTE That we used Number (int) to indentify menu option the results show a Int (number) instead of the name of the item
 # NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ============================================ 4.3 INPUT PART 3 USING STR TO REPLACE INT ===============================================================
 # ======================================================================================================================================================
 
+
+#TBC FROM HERE
 
 
 # If we wanted for the results to show the name of the iteams instead of a number we would change the int (number) to a str (Text)
@@ -468,8 +533,6 @@ This function displays the menu for the Python Diner.
 
 # lets make our program even cooler by handle such errors.
 
-
-hereeeeeeeeee tbc
 
 
 
