@@ -5,9 +5,6 @@
 
         # 1 Hashtag are Comemnts/Analogies and Explanations
         ## 2 Hashtags are runable code, delete the hashtags to run the code/add or change the code for practice
-        ### 3 Hashtags are partial codes that you can copy and paste into the runnable code to see diffrent outcomes
-        #### 4 Are fun tasks for you to practice
-
 
         # NOTE To run the code below delete 2 ## hastags at the start of every line this will uncomment them. below will tell you how using shortcut:
 
@@ -55,23 +52,42 @@
 # ========================================================= 1. COMMUNICATION PRINT() ===================================================================
 # ======================================================================================================================================================                                              
 
+
+""" EXPLANATION """
 # Analogy:
-# print() function is like a computers mouth, when you write print what ever is inbetween () the computer will say out load (print out)
+# The print() function is like the computer's mouth. When you use print(), 
+# whatever is inside the parentheses () is "spoken out loud" (displayed) by the computer. It's how the computer communicates with you.
 
 
+""" RUNABLE CODE """
 ## print ("Hello world")
 
-                    # Results will be :  Hello world 
+
+""" EXPECTED RESULT """
+
+# Results will be :  Hello world 
 
 
-#### TASK
-    # Try it your self. Can you get the computer to say "I Love Coding" 🚀✨
+""" TASK """
+# Try it yourself:
+
+# Modify the code to make the computer say "I Love Coding".
+# Run it and see the result!
 
 
+""" ENCOURAGEMENT """
+# Once you’ve mastered this, can you make the computer say multiple things? For example, 
+# try adding another print() line to display: Learning Python is fun! 🚀✨
+
+
+
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ========================================================= 2. VARIABLES  ==============================================================================
 # ======================================================================================================================================================
-                                                
+
+
+"""EXPLANATION"""
 # Variables - Your Storage Boxes
 # In Python, variables are like labeled storage boxes where you can keep information.
 
@@ -89,26 +105,41 @@
 # You can ask it to add them by using the print():
 
 
-
+"""RUNABLE CODE"""
 ## apples = 10
 ## bananas = 5
 ## print (apples + bananas)
 
-                        # Result will be : 15
 
 
-#### TASK 
-    # Do you think can test it out? 
-    # What if i had 8 Oranges 3 Pineapples and 7 Avocados 
-    # How would i get the resutls of the total number of fruit i have?
-    # TRY IT 🚀✨
+""" EXPECTED RESULT """
+# Result will be : 15
 
 
+"""TASK"""
+# Try it yourself:
+
+# Add more fruits! What if you had 8 oranges, 3 pineapples, and 7 avocados?
+# Write the code to calculate the total number of fruits you have.
+# Run it and see the result! 🚀✨
+
+
+""" ENCOURAGEMENT """
+# Analogy:
+# Think of your shelf getting bigger with more labeled boxes (variables). 
+# You can add as many as you want, and the computer will do the math for you.
+
+# Can you also try subtracting or multiplying the number of fruits? For example:
+# print(apples * 2)  # Doubling the number of apples
+
+
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ========================================================= 3. DATA TYPES  =============================================================================
 # ====================================================================================================================================================== 
-                                               
 
+
+"""EXPLANATION"""
 # Not all boxes store the same type of thing! Python has different kinds of storage boxes:
 
 # 	•	int: Numbers (like 5 or 10) → Think: A box for counting items.
@@ -121,39 +152,108 @@
                         # price = 19.99         # float
                         # is_happy = True       # bool
 
+"""RUNABLE CODE"""
+## age = 30  # int
+## name = "Alex"  # str
+## price = 5.99  # float
+## is_happy = True  # bool
+
+## print("Your age is:", age)
+## print("Your name is:", name)
+## print("The price of coffee is:", price)
+## print("Are you happy?", is_happy)
+
+
+""" EXPECTED RESULT """
+# Your age is: 30
+# Your name is: Alex
+# The price of coffee is: 5.99
+# Are you happy? True
+
+
+""" TASK """
+#Try it yourself:
+
+# Create your own variables:
+# How old are you? (int)
+# What’s your favorite color? (str)
+# How much did you spend on lunch today? (float)
+# Are you excited to learn Python? (bool)
+# Print each variable and see what happens! 🚀✨
+
+
+""" ENCOURAGEMENT """
+# Analogy:
+# Think of yourself as the organizer of a shelf with lots of different boxes. 
+# You can store any kind of information in these boxes—numbers, words, or even yes/no answers.
+
+# Can you also try combining the variables in creative ways? For example:
+
+#print("Hi " + name + ", the price of your coffee is $" + str(price))
+
+#This is a great way to practice mixing data types! Let’s see what you can come up with! 😊
+
 
 # NOTE we will chat about these later. now lets have a look at input() fanction and what it does 
-
-
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ================================================== 4. INPUT() - LISTENNING TO YOU ====================================================================
 # ======================================================================================================================================================
-                                            
-# input() function is how you make the computer ask questions. 
+
+"""EXPLANATION"""                                        
+# The input() function is how you make the computer "ask questions." It works like this:
 
 # Analogy:
 # The computer is like a waiter asking, "whats your name" and “What do you want to order?”
 
-## name = input("What's your name? ") # here we are telling the compueter to ask for your name
-## print("Hello, " + name + "!") # here we are taking the results of the name adding Hello before the name and printing both Hello + name + "!"
 
-# The input itself is your name something that the user put in (input)
+# Analogy Part2
+# Remember our variable analogy? Previously, we put values into boxes (variables) ourselves. 
+# Now, with the input() function, someone else (the user) gets to decide what goes into those boxes.
+# Instead of you manually putting in the data, you're asking the user, and their response becomes the content stored in the variable.
+
+# The input is what the user types. For example, if the waiter (computer) asks, "What's your name?" and you type Will, that's your input,
+# and the computer stores it in a variable (like a box).
 
 # We are asking the computer to do 3 things 
 
-                        # 1. ask for a name     
-                        # 2. take the result and print Hello infront of it
-                        # 3. and finally add "!" at the end    
-
-                        # Results will be : What's your name? Will  (WILL IS MY INPUT AS AN ANSWER TO THE QUESTION)
-                        #                   Hello, Will!
+                        # 1. Asks for the user's name.   
+                        # 2. Takes the user's answer and stores it in a variable called name.
+                        # 3. Prints a message that says "Hello," followed by the name, and adds "!" at the end.   
 
 
+""" RUNABLE CODE """
+## name = input("What's your name? ") # here we are telling the compueter to ask for your name
+## print("Hello, " + name + "!") # here we are taking the results of the name adding Hello before the name and printing both Hello + name + "!"
+
+# In this case, name is the variable where the value returned by the input() function (the user’s input) is stored.
+
+
+""" EXPECTED RESULT """
+
+# Results will be :  
+                        # What's your name? Will  #(WILL IS MY INPUT AS AN ANSWER TO THE QUESTION)
+                        # Hello, Will!
+
+
+""" TASK """
+# Try it yourself:
+
+# Change the variable name from name to surname.
+# Modify the message to include Mr (or Ms) before the name
+
+
+""" ENCOURAGEMENT """
+# Can you figure out what happens if you use both name and surname variables? 
+# Try combining them to create a full greeting, like 'Hello, Mr Will Smith!' 🚀✨
+
+
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ================================================= 4.1 INPUT PART 2 ADDING MENU =======================================================================
 # ====================================================================================================================================================== 
                                         
-
+"""EXPLANATION"""  
 # Lets build on what we have learned so far and add a menu 
                         
                         # 1. we want to welcome the user and ask for their name 
@@ -200,7 +300,6 @@
 # =========== SIDE QUEST 1 ==============
 # =======================================
 
-
 # What Are """ """?
 # In Python, """ """ (triple quotes) are used to create multi-line strings.
 
@@ -226,7 +325,6 @@ This function displays the menu for the Python Diner.
 
 # NOTE We are using numbers (int) to indentify the the food options. when the computer sees this it only sees numbers (int) not the name of the foods!
                         # The name of the food options are only visible to the user.
-
 
 # Great our code so far should look like this:
 
@@ -277,10 +375,11 @@ This function displays the menu for the Python Diner.
                         #             str          str             str                int          str
                         #                        Variable                          Varianle                           
 
-
 # Great lets well done we create a cool litte program that intracts with customers. 
 # below is the full, follow the instruction in index to run the code and test it out.  
 
+
+"""RUNABLE CODE"""
 ## #Step 1: Ask for the customer's name
 ## name = input("Welcome to Python Diner! What's your name? ") 
 
@@ -301,7 +400,9 @@ This function displays the menu for the Python Diner.
 ## # Step 5: Confirm the order
 ## print("Great choice, " + name + "! We'll prepare your " + order + " right away.") 
 
-                    # Results will be:
+
+""" EXPECTED RESULT """
+# Results will be:
                     # Welcome to Python Diner! What's your name? Will 
                     # Hello, will! Here's our menu:
 
@@ -318,11 +419,12 @@ This function displays the menu for the Python Diner.
 
 
 # NOTE that we used Number (int) to indentify menu option the results show a Int (number) instead of the name of the item
-
-
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ============================================ 4.3 INPUT PART 3 USING STR TO REPLACE INT ===============================================================
 # ======================================================================================================================================================
+
+
 
 # If we wanted for the results to show the name of the iteams instead of a number we would change the int (number) to a str (Text)
 # We simply do this by modifying how the computer would read the iteams from numbers to text.            
@@ -357,7 +459,7 @@ This function displays the menu for the Python Diner.
 
 # NOTE Great work, BuT what if we enter a int or str that is not in the menu what will happen? try it and see
 
-
+# NOTE INTRUCTIONS TO RUN THE CODE ARE IN THE INDEX 
 # ======================================================================================================================================================
 # ============================================= 5 INPUT VALIDATION AND ERROR HANDLING ==================================================================
 # ====================================================================================================================================================== 
