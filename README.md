@@ -16,6 +16,8 @@
     <img src="https://img.shields.io/badge/Tech--Analogy-FFD700?style=for-the-badge&logo=bulb&logoColor=white" alt="Tech-Analogy">
   </a>
 </div>
+
+
 # LearnPython 🐍
 
 **LearnPython** is an ever-growing, beginner-friendly Python learning resource designed to teach programming concepts step-by-step. This repository offers clear explanations, runnable code examples, and practical tasks to reinforce learning—all while keeping it simple and interactive.
